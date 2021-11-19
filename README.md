@@ -108,4 +108,10 @@ Executes these scripts:
 Fully stops and removes the installed script from your system
 
 #### update-metadata
-Copies following information from the `package.json` to the `metadata.desktop`
+Copies following information from the `package.json` to the `metadata.desktop`:
+- `displayName`
+- `description`
+- `main`
+- `author`
+- `name`
+- `version`
