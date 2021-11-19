@@ -82,7 +82,7 @@ Compiles the TypeScript source files to a single `main.js` without checking for 
 #### package
 Packages the compiled script to a single `.kwinscript` file. Use the `.pkgignore` file to specify files and folders of the root level to exclude
 
-### install
+#### install
 Installs the packaged script to your system
 
 #### run
@@ -102,7 +102,7 @@ Executes these scripts:
 4. `install`
 5. `run`
 
-### uninstall
+#### uninstall
 Fully stops and removes the installed script from your system
 
 #### update-metadata
