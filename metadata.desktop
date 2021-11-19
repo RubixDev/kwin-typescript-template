@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=TypeScript Template
+Comment=A template kwinscript for typescript
+Icon=preferences-system-windows-script-test
+
+Type=Service
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-KWin-Border-Activate=true
+X-KDE-PluginInfo-Author=RubixDev
+X-KDE-PluginInfo-Email=rubixdev@mailfence.com
+X-KDE-PluginInfo-Name=typescript-template
+X-KDE-PluginInfo-Version=1.0.0
+
+X-KDE-PluginInfo-License=GPL
+X-KDE-ServiceTypes=KWin/Script
+X-KDE-PluginKeyword=typescript-template

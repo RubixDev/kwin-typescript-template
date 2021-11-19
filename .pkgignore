@@ -1,0 +1,9 @@
+node_modules/
+scripts/
+.vscode/
+
+.gitignore
+tsconfig.json
+package.json
+package-lock.json
+*.kwinscript
