@@ -7,7 +7,7 @@ Type=Service
 
 X-Plasma-API=javascript
 X-Plasma-MainScript=code/main.js
-X-KWin-Border-Activate=true
+X-KWin-Border-Activate=false
 X-KDE-PluginInfo-Author=RubixDev
 X-KDE-PluginInfo-Email=rubixdev@mailfence.com
 X-KDE-PluginInfo-Name=typescript-template
