@@ -1,5 +1,5 @@
 # KWin TypeScript Template
-A template for creating KWin scripts in typescript, because the official docs [here](https://develop.kde.org/docs/plasma/kwin/) and [here](https://develop.kde.org/docs/plasma/kwin/api/) aren't *perfect*.
+A template for creating KWin scripts in typescript, because the official docs [here](https://develop.kde.org/docs/plasma/kwin/) and [here](https://develop.kde.org/docs/plasma/kwin/api/) aren't *quite* perfect.
 
 It uses [my type declarations](https://github.com/RubixDev/kwin-types), that I created based mainly by looking through [KWin's source code](https://github.com/KDE/kwin) and the docs mentioned above.
 
