@@ -72,6 +72,8 @@ There are a few global properties and functions:
   - `ElectricNone`
 - `QTimer`: A class, for calling a function repeatedly with an interval, or just once with a delay.
 
+Keep in mind async/await won't work. It seems like any call to `setTimeout()` or similar functions results in an internal error and cancels further execution of that scope.
+
 ### NPM Scripts
 #### lint
 Checks the source files for errors using `tsc`
