@@ -30,7 +30,7 @@ Edit the `metadata.desktop` file. For convenience you can run `npm run update-me
 Run `npm i` to install the required dependencies.
 
 #### Step 5
-Write your script in the `main.ts` file. You can also add more files and import them with the typical `import { stuff } from 'elsewhere'` syntax.
+Write your script in the `contents/src/main.ts` file. You can also add more files and import them with the typical `import { stuff } from 'elsewhere'` syntax.
 
 There are a few global properties and functions:
 - Functions (refer to the JSDoc for more information)
