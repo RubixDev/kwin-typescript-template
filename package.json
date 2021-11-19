@@ -10,7 +10,7 @@
     "lint": "tsc --noEmit",
     "compile": "esbuild --minify --bundle contents/src/main.ts --outfile=contents/code/main.js --format=esm --platform=neutral",
     "package": "scripts/package.sh",
-    "install": "scripts/install.sh",
+    "install": "[ $npm_command != 'run-script' ] || scripts/install.sh",
     "run": "scripts/start.sh",
     "publish": "npm run lint && npm run compile && npm run package",
     "start": "npm run lint && npm run compile && npm run package && npm run install && npm run run",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "esbuild": "^0.13.14",
-    "kwin-types": "^0.1.0",
+    "kwin-types": "^0.1.1",
     "typescript": "^4.5.2"
   }
 }
