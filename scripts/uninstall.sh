@@ -1,8 +1,8 @@
 #!/bin/bash
 
 id="$(grep -oP '(?<=X-KDE-PluginInfo-Name=).*' metadata.desktop)"
-if kpackagetool5 --list | grep "^$id$" > /dev/null; then
-    kpackagetool5 --type=KWin/Script -r "$id.kwinscript"
+if kpackagetool5 --type=KWin/Script --list | grep "^$id$" > /dev/null; then
+    kpackagetool5 --type=KWin/Script -r "$id"
 fi
 
 kwriteconfig5 --file kwinrc --group Plugins --key "${id}Enabled" --delete
